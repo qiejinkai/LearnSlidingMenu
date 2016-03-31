@@ -1,4 +1,4 @@
-thub 下载slidingmenu开源包
+1.github 下载slidingmenu开源包 https://github.com/jfeinstein10/SlidingMenu
 2.在as中创建一个app project
 3.以project视角打开project
 4.将slidingmenu开源包中的libary文件夹复制到project根目录下，重命名为sliding_menu 与app文件夹同级
