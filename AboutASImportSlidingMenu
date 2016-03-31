@@ -1,0 +1,15 @@
+thub 下载slidingmenu开源包
+2.在as中创建一个app project
+3.以project视角打开project
+4.将slidingmenu开源包中的libary文件夹复制到project根目录下，重命名为sliding_menu 与app文件夹同级
+5.在project根目录下的settings.gradle文件中 添加
+	include ':app',':sliding_menu'
+6./app/build.gradle文件中 dependencies模块中添加
+	 compile project(':sliding_menu')
+7.同步/app/build.gradle 与/sliding_menu/buildgradle 中相关参数 如
+        compileSdkVersion 23
+    	buildToolsVersion "23.0.3"
+	minSdkVersion 15
+        targetSdkVersion 23
+8.Build->Make Project
+9.打完收工
